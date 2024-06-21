@@ -5,8 +5,9 @@ import Tienda from "./pages/Tienta"
 import Laptop from "./pages/Laptop"
 import Movil from "./pages/Movil"
 import Categorias from "./pages/Categorias"
-import Contactos from "./pages/Contactos"
+
 import Footer from "./components/Footer"
+import Habilidades from "./pages/Habilidades"
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
           <Route path="/laptop" element={<Laptop/>} />
           <Route path="/movil" element={<Movil/>} />
           <Route path="/categorias/:id" element={<Categorias/>} />
-          <Route path="/contactos" element={<Contactos/>} />
+          <Route path="/habilidades" element={<Habilidades/>} />
           <Route path="*" element={<Inicio/>} />
       </Routes>
       </main>
